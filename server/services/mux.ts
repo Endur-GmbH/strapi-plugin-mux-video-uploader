@@ -61,6 +61,7 @@ export default ({ strapi }: { strapi: any }) => ({
       cors_origin: corsOrigin,
       new_asset_settings: {
         playback_policy: [playbackPolicy],
+        mp4_support: 'standard',
       },
     });
   },
@@ -102,6 +103,7 @@ export default ({ strapi }: { strapi: any }) => ({
     return Video.Assets.create({
       input: url,
       playback_policy: [playbackPolicy],
+      mp4_support: 'standard',
     });
   },
 
