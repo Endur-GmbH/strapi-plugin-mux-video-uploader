@@ -40,8 +40,6 @@ export const AssetCard = ({
     setPlaybackPolicy(signed);
   };
 
-  useEffect(() => handlePlaybackPolicyChange(true), []);
-
   const commonAssetCardProps = {
     id: asset.id,
     extension: getFileExtension(asset.ext),
