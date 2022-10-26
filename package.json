@@ -1,7 +1,11 @@
 {
-  "name": "strapi-plugin-mux-video-uploader",
-  "version": "2.2.1",
+  "name": "@endur/strapi-plugin-mux-video-uploader",
+  "version": "0.9.0",
   "description": "This plugin allows you to upload your content to Mux and use it with Strapi.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Endur-GmbH/strapi-plugin-mux-video-uploader.git"
+  },
   "strapi": {
     "name": "mux-video-uploader",
     "displayName": "Mux Video Uploader",
@@ -50,6 +54,11 @@
       "name": "Erik Peña",
       "email": "erikpena@users.noreply.github.com",
       "url": "https://github.com/erikpena"
+    },
+    {
+      "name": "Severin Bauer",
+      "email": "severin@endur.app",
+      "url": "https://github.com/sevbauer"
     }
   ],
   "engines": {
